@@ -1,0 +1,108 @@
+html { 
+	overflow-y: scroll; 
+}
+
+body,
+.subMsg {
+	font-family: 'Tahoma';
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F8F8F8;
+}
+
+h1,
+h3,
+h4,
+h5,
+p,
+th,
+td {
+	color: #084887;
+}
+
+.subMsg {
+	font-size: 15px;
+	font-weight: bold;
+	color: #64ECC2;
+
+}
+
+.imageMain {
+	float: left;
+	height: 110px;
+	width: 110px;	
+}
+
+h1 {
+	margin: 10px;
+	font-size: 50px;
+	display: inline;
+}
+
+.headerClass {
+	display: inline-block;	
+}
+
+.linkSubject {
+	text-decoration: none;
+}
+
+.addImage {
+	height: 65px;
+	width: 65px;		
+}
+
+h2 {
+	color: #D74E09;
+}
+
+table {
+	margin: 0px auto;
+}
+
+.tableClass table {
+	text-align:center;
+	width:auto;
+}
+
+.tableClass table td,.tableClass table th {
+	padding:3px 10px;
+}
+
+.tableClass table thead th {
+	background:0;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699',endColorstr='#00557F');
+	background-color:#069;
+	color:#FFF;
+	font-size:15px;
+	font-weight:700;
+	border-left:1px solid #0070A8;
+}
+
+.tableClass table tbody .odd td {
+	background:#E1EEF4;
+	color:#00496B;
+}
+
+.tableClass table tbody .even td {
+	background:#B1B2B3;
+	color:#00496B;
+}
+
+p {
+	font-size: 11px;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 15px;
+    font-family: "Tahoma";
+    font-weight: bold;
+}

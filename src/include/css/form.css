@@ -1,0 +1,48 @@
+body {
+	font-family: 'Tahoma';
+	position: relative;
+	margin-left: 2%;
+	background-color: #F8F8F8;
+}
+
+h1 {
+	color: #084887;
+}
+
+span {
+	color: #DB222A;
+}
+
+h5 {
+	color: #64ECD4;
+}
+
+h4 {
+	color: orange;
+}
+
+input, textarea, table {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    display: inline;
+    zoom:1;          
+    vertical-align:middle;
+    margin-left:20px
+}
+
+label {
+    display:inline-block;
+    display: inline;
+    zoom:1;          
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 140px;
+}
+
+.submitClass {
+	width: 65px;
+	height: 65px;
+	margin-left: 100px;
+}

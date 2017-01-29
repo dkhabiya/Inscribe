@@ -1,0 +1,43 @@
+body {
+	font-family: 'Tahoma';
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F8F8F8;
+}
+
+h1 {
+	color: #084887;
+    margin: 3%;
+}
+
+.homeImage{
+    height: 65px;
+    width: 65px;
+    margin-top: 0px;
+    margin-left: 3%;
+}
+
+.tableClass table {
+    text-align:left;
+    width:auto;
+    font-size: 18px;
+    margin: 3%;
+}
+
+.tableClass table td {
+    padding:3px 10px;
+}
+
+.colName {
+    font-weight: bold;
+}
+
+.tableClass table tbody .odd td {
+    background:#E1EEF4;
+    color:#00496B;
+}
+
+.tableClass table tbody .even td {
+    background:#B1B2B3;    
+    color:#00496B;
+}
